@@ -198,7 +198,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6FD8E2AB</NID>
-              <NAME>sceAta_driver_6FD8E2AB</NAME>
+              <NAME>sceAtaDisplayReqSense</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x76C0923D</NID>
@@ -446,7 +446,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2531D8DB</NID>
-              <NAME>sceAta_driver_2531D8DB</NAME>
+              <NAME>sceAtaDisplayReqSense</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x36373DA5</NID>
@@ -626,7 +626,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1EFC5BA9</NID>
-              <NAME>sceAta_driver_1EFC5BA9</NAME>
+              <NAME>sceAtaDisplayReqSense</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2586D6DE</NID>
@@ -834,7 +834,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x50D68477</NID>
-              <NAME>sceAta_driver_50D68477</NAME>
+              <NAME>sceAtaDisplayReqSense</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x532482C3</NID>
@@ -1258,7 +1258,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB750550D</NID>
-              <NAME>sceAta_driver_B750550D</NAME>
+              <NAME>sceAtaDisplayReqSense</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBB8C811E</NID>
@@ -1566,7 +1566,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5F2CCC92</NID>
-              <NAME>sceAta_driver_5F2CCC92</NAME>
+              <NAME>sceAtaDisplayReqSense</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x65DA82D3</NID>
@@ -1782,7 +1782,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB4E73EB1</NID>
-              <NAME>sceAta_driver_B4E73EB1</NAME>
+              <NAME>sceAtaDisplayReqSense</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB694BEB1</NID>
@@ -1866,7 +1866,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x250C0EAE</NID>
-              <NAME>sceAta_driver_250C0EAE</NAME>
+              <NAME>sceAtaDisplayReqSense</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2F774AE3</NID>
@@ -3897,7 +3897,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE066B45F</NID>
-              <NAME>sceAudiocodec_E066B45F</NAME>
+              <NAME>sceAudiocodecSetInfo</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -4189,7 +4189,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA86B6778</NID>
-              <NAME>sceBLK_driver_A86B6778</NAME>
+              <NAME>sceBLKInvalidateDeviceName</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDC4A18BC</NID>
@@ -10206,7 +10206,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xBEC57A6C</NID>
-              <NAME>sceVshCommonGui_BEC57A6C</NAME>
+              <NAME>_ZN3vsh10OptionMenu10SetItemNumEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC1660004</NID>
@@ -10270,7 +10270,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2C51E827</NID>
-              <NAME>sceVshCommonGui_2C51E827</NAME>
+              <NAME>_ZN3vsh10OptionMenu10SetItemNumEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x32BD55F6</NID>
@@ -10630,7 +10630,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF4F7EFD5</NID>
-              <NAME>sceVshCommonGui_F4F7EFD5</NAME>
+              <NAME>_ZN3vsh10OptionMenu10SetItemNumEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x010B556E</NID>
@@ -10738,7 +10738,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7AE5E7C9</NID>
-              <NAME>sceVshCommonGui_7AE5E7C9</NAME>
+              <NAME>_ZN3vsh10OptionMenu10SetItemNumEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7C669766</NID>
@@ -43020,7 +43020,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3EFC0D64</NID>
-              <NAME>sceGe_driver_3EFC0D64</NAME>
+              <NAME>sceGeDecodeListId</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x51C8BB60</NID>
@@ -51997,7 +51997,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9BA61B49</NID>
-              <NAME>sceImpose_9BA61B49</NAME>
+              <NAME>sceImposeReadSpecialButton</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8F6E3518</NID>
@@ -52103,11 +52103,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7084E72C</NID>
-              <NAME>sceImpose_driver_7084E72C</NAME>
+              <NAME>sceImposeGetSpecialButtonMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9DBCE0C4</NID>
-              <NAME>sceImpose_driver_9DBCE0C4</NAME>
+              <NAME>sceImposeSetSpecialButtonMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8F6E3518</NID>
@@ -52179,7 +52179,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD17C33FB</NID>
-              <NAME>sceImpose_driver_D17C33FB</NAME>
+              <NAME>sceImposeSetSpecialButtonMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD4FDA428</NID>
@@ -52315,7 +52315,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFDBE164F</NID>
-              <NAME>sceImpose_driver_FDBE164F</NAME>
+              <NAME>sceImposeSetSpecialButtonMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x02F748C1</NID>
@@ -52495,7 +52495,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD1F5724A</NID>
-              <NAME>sceImpose_driver_D1F5724A</NAME>
+              <NAME>sceImposeSetSpecialButtonMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDA315C59</NID>
@@ -52649,7 +52649,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7084E72C</NID>
-              <NAME>sceImpose_7084E72C</NAME>
+              <NAME>sceImposeGetSpecialButtonMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x72189C48</NID>
@@ -52669,11 +52669,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9BA61B49</NID>
-              <NAME>sceImpose_9BA61B49</NAME>
+              <NAME>sceImposeReadSpecialButton</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9DBCE0C4</NID>
-              <NAME>sceImpose_9DBCE0C4</NAME>
+              <NAME>sceImposeSetSpecialButtonMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA9884B00</NID>
@@ -53213,7 +53213,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7084E72C</NID>
-              <NAME>sceImpose_7084E72C</NAME>
+              <NAME>sceImposeGetSpecialButtonMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x72189C48</NID>
@@ -53233,11 +53233,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9BA61B49</NID>
-              <NAME>sceImpose_9BA61B49</NAME>
+              <NAME>sceImposeReadSpecialButton</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9DBCE0C4</NID>
-              <NAME>sceImpose_9DBCE0C4</NAME>
+              <NAME>sceImposeSetSpecialButtonMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA9884B00</NID>
@@ -53777,7 +53777,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7084E72C</NID>
-              <NAME>sceImpose_7084E72C</NAME>
+              <NAME>sceImposeGetSpecialButtonMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x72189C48</NID>
@@ -53797,11 +53797,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9BA61B49</NID>
-              <NAME>sceImpose_9BA61B49</NAME>
+              <NAME>sceImposeReadSpecialButton</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9DBCE0C4</NID>
-              <NAME>sceImpose_9DBCE0C4</NAME>
+              <NAME>sceImposeSetSpecialButtonMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA9884B00</NID>
@@ -54369,7 +54369,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9BA61B49</NID>
-              <NAME>sceImpose_9BA61B49</NAME>
+              <NAME>sceImposeReadSpecialButton</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA9884B00</NID>
@@ -54397,11 +54397,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7084E72C</NID>
-              <NAME>sceImpose_7084E72C</NAME>
+              <NAME>sceImposeGetSpecialButtonMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9DBCE0C4</NID>
-              <NAME>sceImpose_9DBCE0C4</NAME>
+              <NAME>sceImposeSetSpecialButtonMode</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -55073,7 +55073,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9BA61B49</NID>
-              <NAME>sceImpose_9BA61B49</NAME>
+              <NAME>sceImposeReadSpecialButton</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA9884B00</NID>
@@ -55101,11 +55101,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7084E72C</NID>
-              <NAME>sceImpose_7084E72C</NAME>
+              <NAME>sceImposeGetSpecialButtonMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9DBCE0C4</NID>
-              <NAME>sceImpose_9DBCE0C4</NAME>
+              <NAME>sceImposeSetSpecialButtonMode</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -55733,7 +55733,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7084E72C</NID>
-              <NAME>sceImpose_7084E72C</NAME>
+              <NAME>sceImposeGetSpecialButtonMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x72189C48</NID>
@@ -55753,11 +55753,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9BA61B49</NID>
-              <NAME>sceImpose_9BA61B49</NAME>
+              <NAME>sceImposeReadSpecialButton</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9DBCE0C4</NID>
-              <NAME>sceImpose_9DBCE0C4</NAME>
+              <NAME>sceImposeSetSpecialButtonMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA9884B00</NID>
@@ -56157,7 +56157,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7084E72C</NID>
-              <NAME>sceImpose_7084E72C</NAME>
+              <NAME>sceImposeGetSpecialButtonMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x72189C48</NID>
@@ -56177,11 +56177,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9BA61B49</NID>
-              <NAME>sceImpose_9BA61B49</NAME>
+              <NAME>sceImposeReadSpecialButton</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9DBCE0C4</NID>
-              <NAME>sceImpose_9DBCE0C4</NAME>
+              <NAME>sceImposeSetSpecialButtonMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA9884B00</NID>
@@ -56565,7 +56565,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7084E72C</NID>
-              <NAME>sceImpose_7084E72C</NAME>
+              <NAME>sceImposeGetSpecialButtonMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x72189C48</NID>
@@ -56585,11 +56585,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9BA61B49</NID>
-              <NAME>sceImpose_9BA61B49</NAME>
+              <NAME>sceImposeReadSpecialButton</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9DBCE0C4</NID>
-              <NAME>sceImpose_9DBCE0C4</NAME>
+              <NAME>sceImposeSetSpecialButtonMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA9884B00</NID>
@@ -56881,7 +56881,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7084E72C</NID>
-              <NAME>sceImpose_7084E72C</NAME>
+              <NAME>sceImposeGetSpecialButtonMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x72189C48</NID>
@@ -56901,11 +56901,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9BA61B49</NID>
-              <NAME>sceImpose_9BA61B49</NAME>
+              <NAME>sceImposeReadSpecialButton</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9DBCE0C4</NID>
-              <NAME>sceImpose_9DBCE0C4</NAME>
+              <NAME>sceImposeSetSpecialButtonMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA9884B00</NID>
@@ -66183,7 +66183,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x0ACC3E3E</NID>
-              <NAME>sceMePower_driver_0ACC3E3E</NAME>
+              <NAME>sceMePowerControlDmacplusClock</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x84F74FD7</NID>
@@ -66203,7 +66203,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2FBD0AC2</NID>
-              <NAME>sceMePower_driver_2FBD0AC2</NAME>
+              <NAME>sceMePowerControlDmacplusClock</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6C557E2E</NID>
@@ -66231,7 +66231,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x984E2608</NID>
-              <NAME>sceMePower_driver_984E2608</NAME>
+              <NAME>sceMePowerControlDmacplusClock</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB37562AA</NID>
@@ -66339,7 +66339,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x0ACC3E3E</NID>
-              <NAME>sceMeWrapper_driver_0ACC3E3E</NAME>
+              <NAME>sceMePowerControlDmacplusClock</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1CAA901D</NID>
@@ -66447,7 +66447,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2FBD0AC2</NID>
-              <NAME>sceMeWrapper_driver_2FBD0AC2</NAME>
+              <NAME>sceMePowerControlDmacplusClock</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x341CB854</NID>
@@ -66579,7 +66579,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x984E2608</NID>
-              <NAME>sceMeWrapper_driver_984E2608</NAME>
+              <NAME>sceMePowerControlDmacplusClock</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9A9E21EE</NID>
@@ -66767,7 +66767,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x984E2608</NID>
-              <NAME>sceMePower_driver_984E2608</NAME>
+              <NAME>sceMePowerControlDmacplusClock</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB37562AA</NID>
@@ -66875,7 +66875,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x984E2608</NID>
-              <NAME>sceMeWrapper_driver_984E2608</NAME>
+              <NAME>sceMePowerControlDmacplusClock</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9A9E21EE</NID>
@@ -72769,11 +72769,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x385E1320</NID>
-              <NAME>sceAsfParser_385E1320</NAME>
+              <NAME>sceAsfGetAudioStreamInfo</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x49E09367</NID>
-              <NAME>sceAsfParser_49E09367</NAME>
+              <NAME>sceAsfGetVariableObjectInfo</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5EC678CB</NID>
@@ -72797,7 +72797,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF5F356F6</NID>
-              <NAME>sceAsfParser_F5F356F6</NAME>
+              <NAME>sceAsfGetExtContentDescription</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBC85F4D8</NID>
@@ -73631,11 +73631,11 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x381CB9B3</NID>
-              <NAME>sceGameUpdate_381CB9B3</NAME>
+              <NAME>sceGameUpdateInitInternal</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3EBB6055</NID>
-              <NAME>sceGameUpdate_3EBB6055</NAME>
+              <NAME>sceGameUpdateRunInternal</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x596AD78C</NID>
@@ -75721,7 +75721,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x36D8F34B</NID>
-              <NAME>sceLibUpdateDL_36D8F34B</NAME>
+              <NAME>sceUpdateDownloadSetUpdateMode</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -94640,7 +94640,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB6FE3E62</NID>
-              <NAME>sceMePower_driver_B6FE3E62</NAME>
+              <NAME>sceMePowerControlDmacplusClock</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x67C3EF35</NID>
@@ -94648,7 +94648,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x68B42814</NID>
-              <NAME>sceMePower_driver_68B42814</NAME>
+              <NAME>sceMePowerControlDmacplusClock</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9CA459EF</NID>
@@ -94672,7 +94672,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7C15926D</NID>
-              <NAME>sceMePower_driver_7C15926D</NAME>
+              <NAME>sceMePowerControlDmacplusClock</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x85199B75</NID>
@@ -94684,7 +94684,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x020BB776</NID>
-              <NAME>sceMePower_driver_020BB776</NAME>
+              <NAME>sceMePowerControlDmacplusClock</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA156F3E3</NID>
@@ -94732,7 +94732,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x52E7CD99</NID>
-              <NAME>sceMePower_driver_52E7CD99</NAME>
+              <NAME>sceMePowerControlDmacplusClock</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x642D9C3E</NID>
@@ -94764,7 +94764,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x0ACC3E3E</NID>
-              <NAME>sceMePower_driver_0ACC3E3E</NAME>
+              <NAME>sceMePowerControlDmacplusClock</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x84F74FD7</NID>
@@ -94784,7 +94784,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2FBD0AC2</NID>
-              <NAME>sceMePower_driver_2FBD0AC2</NAME>
+              <NAME>sceMePowerControlDmacplusClock</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6C557E2E</NID>
@@ -94812,7 +94812,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x984E2608</NID>
-              <NAME>sceMePower_driver_984E2608</NAME>
+              <NAME>sceMePowerControlDmacplusClock</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB37562AA</NID>
@@ -95188,7 +95188,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB6FE3E62</NID>
-              <NAME>sceMeWrapper_driver_B6FE3E62</NAME>
+              <NAME>sceMePowerControlDmacplusClock</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x03E39FF4</NID>
@@ -95236,7 +95236,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x68B42814</NID>
-              <NAME>sceMeWrapper_driver_68B42814</NAME>
+              <NAME>sceMePowerControlDmacplusClock</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x72192125</NID>
@@ -95324,7 +95324,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7C15926D</NID>
-              <NAME>sceMeWrapper_driver_7C15926D</NAME>
+              <NAME>sceMePowerControlDmacplusClock</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x85199B75</NID>
@@ -95368,7 +95368,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x020BB776</NID>
-              <NAME>sceMeWrapper_driver_020BB776</NAME>
+              <NAME>sceMePowerControlDmacplusClock</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1894F4F2</NID>
@@ -95580,7 +95580,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x52E7CD99</NID>
-              <NAME>sceMeWrapper_driver_52E7CD99</NAME>
+              <NAME>sceMePowerControlDmacplusClock</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6401013A</NID>
@@ -95724,7 +95724,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x0ACC3E3E</NID>
-              <NAME>sceMeWrapper_driver_0ACC3E3E</NAME>
+              <NAME>sceMePowerControlDmacplusClock</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1CAA901D</NID>
@@ -95832,7 +95832,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2FBD0AC2</NID>
-              <NAME>sceMeWrapper_driver_2FBD0AC2</NAME>
+              <NAME>sceMePowerControlDmacplusClock</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x341CB854</NID>
@@ -95964,7 +95964,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x984E2608</NID>
-              <NAME>sceMeWrapper_driver_984E2608</NAME>
+              <NAME>sceMePowerControlDmacplusClock</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9A9E21EE</NID>
@@ -97857,7 +97857,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x531E144B</NID>
-              <NAME>sceMemab_driver_531E144B</NAME>
+              <NAME>sceAdhocBBGMCreateSessionKey</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF94CA9B8</NID>
@@ -114027,7 +114027,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE49EB257</NID>
-              <NAME>sceMpeg_E49EB257</NAME>
+              <NAME>sceMpegAvcCscInfoInit</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE95838F6</NID>
@@ -114291,7 +114291,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE49EB257</NID>
-              <NAME>sceMpeg_E49EB257</NAME>
+              <NAME>sceMpegAvcCscInfoInit</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE95838F6</NID>
@@ -115465,7 +115465,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6F4F7E4C</NID>
-              <NAME>sceMScm_driver_6F4F7E4C</NAME>
+              <NAME>sceMScmIconStopUcode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7B5396BA</NID>
@@ -115509,7 +115509,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xCFD8F662</NID>
-              <NAME>sceMScm_driver_CFD8F662</NAME>
+              <NAME>sceMScmIconResetIcon</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD6DB3199</NID>
@@ -144003,6 +144003,38 @@
           <FLAGS>0x00010000</FLAGS>
           <FUNCTIONS>
             <FUNCTION>
+              <NID>0xF0611F85</NID>
+              <NAME>_ZN3paf7PhXmBar7CloseUpEiiff</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x79F615F2</NID>
+              <NAME>_ZN3paf7PhXmBar10DeleteItemEii</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x101EA5C7</NID>
+              <NAME>_ZN3paf8PhXmList10DeleteItemEi</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x561FE14C</NID>
+              <NAME>_ZN3paf8PhXmList8IconMoveERK4vec4ffb</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xCBF580D9</NID>
+              <NAME>_ZN3paf10PhProgress11SetMaxValueEi</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x4303318D</NID>
+              <NAME>_ZN3paf9Framework5BeginEf</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xCDEC9F30</NID>
+              <NAME>_ZN3paf9Framework3EndEf</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xF5AB679A</NID>
+              <NAME>_ZN3paf9Framework3RunEf</NAME>
+            </FUNCTION>
+            <FUNCTION>
               <NID>0x00D1378F</NID>
               <NAME>sceCccUTF8toUTF16</NAME>
             </FUNCTION>
@@ -147832,7 +147864,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3A4DA05B</NID>
-              <NAME>scePaf_3A4DA05B</NAME>
+              <NAME>png_set_add_alpha</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4C597BB0</NID>
@@ -148356,7 +148388,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x18C88207</NID>
-              <NAME>scePaf_18C88207</NAME>
+              <NAME>_ZN3paf7PhXmBar8HideListEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x18C99524</NID>
@@ -149760,7 +149792,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x759207A2</NID>
-              <NAME>scePaf_759207A2</NAME>
+              <NAME>_ZN3paf7PhClock9SetFormatEiii</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x75CD25C9</NID>
@@ -150000,7 +150032,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x82D5A851</NID>
-              <NAME>scePaf_82D5A851</NAME>
+              <NAME>_ZN3paf10PhProgress9StopValueEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x82FEDB1D</NID>
@@ -150432,7 +150464,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA1116374</NID>
-              <NAME>scePaf_A1116374</NAME>
+              <NAME>_ZN3paf7PhXmBar8ShowListEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA155648E</NID>
@@ -150892,7 +150924,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC41ED2A9</NID>
-              <NAME>scePaf_C41ED2A9</NAME>
+              <NAME>_ZN3paf8PhXmList15ProgressLineSetEif</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC46241AF</NID>
@@ -151280,7 +151312,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xDFC6C31B</NID>
-              <NAME>scePaf_DFC6C31B</NAME>
+              <NAME>_ZN3paf10PhProgress8GetValueEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE082D74B</NID>
@@ -151664,7 +151696,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF7A2B9D9</NID>
-              <NAME>scePaf_F7A2B9D9</NAME>
+              <NAME>_ZN3paf10PhMenuList10SetItemNumEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF7E50369</NID>
@@ -151948,7 +151980,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x072D7A2B</NID>
-              <NAME>scePaf_072D7A2B</NAME>
+              <NAME>_ZN3paf10PhProgress8GetValueEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x073AC323</NID>
@@ -153792,7 +153824,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7C0A1851</NID>
-              <NAME>scePaf_7C0A1851</NAME>
+              <NAME>_ZN3paf7PhClock9SetFormatEiii</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7C221FDE</NID>
@@ -154192,7 +154224,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x98EB69F9</NID>
-              <NAME>scePaf_98EB69F9</NAME>
+              <NAME>_ZN3paf7PhXmBar8HideListEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x99780D8F</NID>
@@ -154576,7 +154608,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB218ADCB</NID>
-              <NAME>scePaf_B218ADCB</NAME>
+              <NAME>_ZN3paf7PhXmBar8ShowListEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB230D19C</NID>
@@ -155420,7 +155452,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE569438B</NID>
-              <NAME>scePaf_E569438B</NAME>
+              <NAME>_ZN3paf10PhProgress9StopValueEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE571AF6D</NID>
@@ -156568,7 +156600,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2D8134EC</NID>
-              <NAME>scePaf_2D8134EC</NAME>
+              <NAME>_ZN3paf7PhXmBar8HideListEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2DC0634D</NID>
@@ -157500,7 +157532,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x678655FC</NID>
-              <NAME>scePaf_678655FC</NAME>
+              <NAME>_ZN3paf7PhClock9SetFormatEiii</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x67D28859</NID>
@@ -158568,7 +158600,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAECC87B8</NID>
-              <NAME>scePaf_AECC87B8</NAME>
+              <NAME>_ZN3paf10PhProgress8GetValueEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAECE5038</NID>
@@ -159468,7 +159500,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE85CE632</NID>
-              <NAME>scePaf_E85CE632</NAME>
+              <NAME>_ZN3paf7PhXmBar8ShowListEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE87AA6A6</NID>
@@ -159696,7 +159728,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF3F5759D</NID>
-              <NAME>scePaf_F3F5759D</NAME>
+              <NAME>_ZN3paf10PhProgress9StopValueEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF45B6082</NID>
@@ -159948,7 +159980,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x03EE251F</NID>
-              <NAME>scePaf_03EE251F</NAME>
+              <NAME>_ZN3paf7PhClock9SetFormatEiii</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x03EFFCA6</NID>
@@ -161384,7 +161416,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5CD749B0</NID>
-              <NAME>scePaf_5CD749B0</NAME>
+              <NAME>_ZN3paf10PhProgress8GetValueEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5CF54829</NID>
@@ -161932,7 +161964,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7EAC7567</NID>
-              <NAME>scePaf_7EAC7567</NAME>
+              <NAME>_ZN3paf7PhXmBar8HideListEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7F7908A0</NID>
@@ -163448,7 +163480,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xDDB02884</NID>
-              <NAME>scePaf_DDB02884</NAME>
+              <NAME>_ZN3paf7PhXmBar8ShowListEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDDFE873D</NID>
@@ -168336,7 +168368,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x0A704AA5</NID>
-              <NAME>scePaf_0A704AA5</NAME>
+              <NAME>_ZN3paf10PhProgress8GetValueEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0A89DFC0</NID>
@@ -168584,7 +168616,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1B0FDF28</NID>
-              <NAME>scePaf_1B0FDF28</NAME>
+              <NAME>_ZN3paf7PhXmBar8HideListEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1B675B45</NID>
@@ -170588,7 +170620,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9004B0FF</NID>
-              <NAME>scePaf_9004B0FF</NAME>
+              <NAME>_ZN3paf7PhXmBar8ShowListEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x904D869C</NID>
@@ -177952,7 +177984,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x43E6F07B</NID>
-              <NAME>scePaf_43E6F07B</NAME>
+              <NAME>_ZN3paf10PhProgress8GetValueEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x43EB2778</NID>
@@ -179336,7 +179368,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9502E19C</NID>
-              <NAME>scePaf_9502E19C</NAME>
+              <NAME>_ZN3paf7PhXmBar8ShowListEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9517854C</NID>
@@ -180104,7 +180136,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xBE306BB5</NID>
-              <NAME>scePaf_BE306BB5</NAME>
+              <NAME>_ZN3paf7PhXmBar8HideListEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBF48C1FC</NID>
@@ -181956,7 +181988,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x30036262</NID>
-              <NAME>scePaf_30036262</NAME>
+              <NAME>_ZN3paf10PhProgress8GetValueEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x30B2ADC0</NID>
@@ -184028,7 +184060,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA2EEE7F8</NID>
-              <NAME>scePaf_A2EEE7F8</NAME>
+              <NAME>_ZN3paf7PhXmBar8HideListEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA2FF3CB9</NID>
@@ -185172,7 +185204,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE8320E23</NID>
-              <NAME>scePaf_E8320E23</NAME>
+              <NAME>_ZN3paf7PhXmBar8ShowListEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE8446576</NID>
@@ -187272,7 +187304,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6379B7AD</NID>
-              <NAME>scePaf_6379B7AD</NAME>
+              <NAME>_ZN3paf10PhProgress8GetValueEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x63CE60FE</NID>
@@ -187392,7 +187424,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x69D71FBF</NID>
-              <NAME>scePaf_69D71FBF</NAME>
+              <NAME>_ZN3paf7PhXmBar8HideListEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6A17A477</NID>
@@ -187544,7 +187576,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x72939F93</NID>
-              <NAME>scePaf_72939F93</NAME>
+              <NAME>_ZN3paf7PhXmBar8ShowListEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x72B16452</NID>
@@ -193862,7 +193894,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3A4DA05B</NID>
-              <NAME>scePaf_3A4DA05B</NAME>
+              <NAME>png_set_add_alpha</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4C597BB0</NID>
@@ -194398,7 +194430,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x18C88207</NID>
-              <NAME>scePaf_18C88207</NAME>
+              <NAME>_ZN3paf7PhXmBar8HideListEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x18C99524</NID>
@@ -195802,7 +195834,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x759207A2</NID>
-              <NAME>scePaf_759207A2</NAME>
+              <NAME>_ZN3paf7PhClock9SetFormatEiii</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x75CD25C9</NID>
@@ -196042,7 +196074,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x82D5A851</NID>
-              <NAME>scePaf_82D5A851</NAME>
+              <NAME>_ZN3paf10PhProgress9StopValueEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x82FEDB1D</NID>
@@ -196474,7 +196506,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA1116374</NID>
-              <NAME>scePaf_A1116374</NAME>
+              <NAME>_ZN3paf7PhXmBar8ShowListEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA155648E</NID>
@@ -197322,7 +197354,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xDFC6C31B</NID>
-              <NAME>scePaf_DFC6C31B</NAME>
+              <NAME>_ZN3paf10PhProgress8GetValueEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE082D74B</NID>
@@ -197706,7 +197738,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF7A2B9D9</NID>
-              <NAME>scePaf_F7A2B9D9</NAME>
+              <NAME>_ZN3paf10PhMenuList10SetItemNumEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF7E50369</NID>
@@ -197990,7 +198022,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x072D7A2B</NID>
-              <NAME>scePaf_072D7A2B</NAME>
+              <NAME>_ZN3paf10PhProgress8GetValueEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x073AC323</NID>
@@ -199834,7 +199866,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7C0A1851</NID>
-              <NAME>scePaf_7C0A1851</NAME>
+              <NAME>_ZN3paf7PhClock9SetFormatEiii</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7C221FDE</NID>
@@ -200618,7 +200650,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB218ADCB</NID>
-              <NAME>scePaf_B218ADCB</NAME>
+              <NAME>_ZN3paf7PhXmBar8ShowListEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB230D19C</NID>
@@ -201462,7 +201494,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE569438B</NID>
-              <NAME>scePaf_E569438B</NAME>
+              <NAME>_ZN3paf10PhProgress9StopValueEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE571AF6D</NID>
@@ -203542,7 +203574,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x678655FC</NID>
-              <NAME>scePaf_678655FC</NAME>
+              <NAME>_ZN3paf7PhClock9SetFormatEiii</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x67D28859</NID>
@@ -204610,7 +204642,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAECC87B8</NID>
-              <NAME>scePaf_AECC87B8</NAME>
+              <NAME>_ZN3paf10PhProgress8GetValueEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAECE5038</NID>
@@ -205510,7 +205542,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE85CE632</NID>
-              <NAME>scePaf_E85CE632</NAME>
+              <NAME>_ZN3paf7PhXmBar8ShowListEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE87AA6A6</NID>
@@ -205738,7 +205770,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF3F5759D</NID>
-              <NAME>scePaf_F3F5759D</NAME>
+              <NAME>_ZN3paf10PhProgress9StopValueEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF45B6082</NID>
@@ -207426,7 +207458,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5CD749B0</NID>
-              <NAME>scePaf_5CD749B0</NAME>
+              <NAME>_ZN3paf10PhProgress8GetValueEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5CF54829</NID>
@@ -214362,7 +214394,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x0A704AA5</NID>
-              <NAME>scePaf_0A704AA5</NAME>
+              <NAME>_ZN3paf10PhProgress8GetValueEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0A89DFC0</NID>
@@ -214610,7 +214642,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1B0FDF28</NID>
-              <NAME>scePaf_1B0FDF28</NAME>
+              <NAME>_ZN3paf7PhXmBar8HideListEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1B675B45</NID>
@@ -223962,7 +223994,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x43E6F07B</NID>
-              <NAME>scePaf_43E6F07B</NAME>
+              <NAME>_ZN3paf10PhProgress8GetValueEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x43EB2778</NID>
@@ -227966,7 +227998,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x30036262</NID>
-              <NAME>scePaf_30036262</NAME>
+              <NAME>_ZN3paf10PhProgress8GetValueEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x30B2ADC0</NID>
@@ -230038,7 +230070,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA2EEE7F8</NID>
-              <NAME>scePaf_A2EEE7F8</NAME>
+              <NAME>_ZN3paf7PhXmBar8HideListEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA2FF3CB9</NID>
@@ -231182,7 +231214,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE8320E23</NID>
-              <NAME>scePaf_E8320E23</NAME>
+              <NAME>_ZN3paf7PhXmBar8ShowListEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE8446576</NID>
@@ -233282,7 +233314,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6379B7AD</NID>
-              <NAME>scePaf_6379B7AD</NAME>
+              <NAME>_ZN3paf10PhProgress8GetValueEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x63CE60FE</NID>
@@ -233402,7 +233434,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x69D71FBF</NID>
-              <NAME>scePaf_69D71FBF</NAME>
+              <NAME>_ZN3paf7PhXmBar8HideListEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6A17A477</NID>
@@ -251505,7 +251537,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x384EFE14</NID>
-              <NAME>sceNet_lib_384EFE14</NAME>
+              <NAME>sceNetHmacSha1</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3A0668D5</NID>
@@ -252437,7 +252469,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF8BABD85</NID>
-              <NAME>sceNetAdhocctl_lib_F8BABD85</NAME>
+              <NAME>sceNetAdhocctlAddInternalHandler</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCDEA7ACB</NID>
@@ -252445,7 +252477,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1572422C</NID>
-              <NAME>sceNetAdhocctl_lib_1572422C</NAME>
+              <NAME>sceNetAdhocctlRequestSuspend</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1A2B6D03</NID>
@@ -252453,7 +252485,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF6057CC4</NID>
-              <NAME>sceNetAdhocctl_lib_F6057CC4</NAME>
+              <NAME>sceNetAdhocctlHostDiscoverStart</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -252999,7 +253031,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1D023504</NID>
-              <NAME>sceNetInet_1D023504</NAME>
+              <NAME>sceNetInetGetArpInfo</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2D5868C0</NID>
@@ -253061,7 +253093,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x824CBC6D</NID>
-              <NAME>sceNetInet_lib_824CBC6D</NAME>
+              <NAME>sceNetConfigGetArpInfo</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8FE19FC4</NID>
@@ -253093,7 +253125,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xDE9E5174</NID>
-              <NAME>sceNetInet_lib_DE9E5174</NAME>
+              <NAME>sceNetConfigFlushArp</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE6F67D14</NID>
@@ -253179,7 +253211,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1D023504</NID>
-              <NAME>sceNetInet_1D023504</NAME>
+              <NAME>sceNetInetGetArpInfo</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2D5868C0</NID>
@@ -253349,7 +253381,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x824CBC6D</NID>
-              <NAME>sceNetInet_lib_824CBC6D</NAME>
+              <NAME>sceNetConfigGetArpInfo</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8FE19FC4</NID>
@@ -253393,7 +253425,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xDE9E5174</NID>
-              <NAME>sceNetInet_lib_DE9E5174</NAME>
+              <NAME>sceNetConfigFlushArp</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE6F67D14</NID>
@@ -284758,7 +284790,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2A100C1F</NID>
-              <NAME>sceUsbAcc_internal_2A100C1F</NAME>
+              <NAME>sceUsbAccIntrInReq</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2E251404</NID>
@@ -287951,6 +287983,10 @@
           <NAME>sceUtility</NAME>
           <FLAGS>0x40010000</FLAGS>
           <FUNCTIONS>
+            <FUNCTION>
+              <NID>0x0E85CE83</NID>
+              <NAME>sceUtilityRssReaderStart</NAME>
+            </FUNCTION>
             <FUNCTION>
               <NID>0x2995D020</NID>
               <NAME>sceUtilitySavedataErrInitStart</NAME>
@@ -292056,7 +292092,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x316CE7AE</NID>
-              <NAME>sceVshBridge_316CE7AE</NAME>
+              <NAME>vshImposeGetSpecialButtonMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3D54E418</NID>
@@ -292068,7 +292104,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x72D4B3A8</NID>
-              <NAME>sceVshBridge_72D4B3A8</NAME>
+              <NAME>vshImposeSetSpecialButtonMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x81B535B2</NID>
