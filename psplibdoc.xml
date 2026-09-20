@@ -279675,7 +279675,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3DCFAA71</NID>
-              <NAME>sceUmdMan_driver_3DCFAA71</NAME>
+              <NAME>sceUmdManTaskIsInQueue</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4217E7F5</NID>
