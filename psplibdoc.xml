@@ -279691,7 +279691,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9814DCF3</NID>
-              <NAME>sceUmdMan_driver_9814DCF3</NAME>
+              <NAME>sceUmdManGetQueueingTask</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9F106F73</NID>
@@ -279703,7 +279703,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xBD13A488</NID>
-              <NAME>sceUmdMan_driver_BD13A488</NAME>
+              <NAME>sceUmdManGetProcessingTaskId</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBF8AED79</NID>
