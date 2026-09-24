@@ -118,7 +118,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x0B53CAD8</NID>
-              <NAME>sceAta_driver_0B53CAD8</NAME>
+              <NAME>sceAtaGetByteLimitCount</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x110D3739</NID>
@@ -146,7 +146,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2AE26E08</NID>
-              <NAME>sceAta_driver_2AE26E08</NAME>
+              <NAME>sceAtaSetDescriptorTableIntr</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2E32045A</NID>
@@ -254,11 +254,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xACCEE63F</NID>
-              <NAME>sceAta_driver_ACCEE63F</NAME>
+              <NAME>sceAtaDoSoftResetBit</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xACFF7CB5</NID>
-              <NAME>sceAta_driver_ACFF7CB5</NAME>
+              <NAME>sceAtaIsReadableDriveStat</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAE100256</NID>
