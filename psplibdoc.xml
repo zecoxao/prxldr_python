@@ -265389,6 +265389,18 @@
               <NAME>sceSysconCtrlNandPower</NAME>
             </FUNCTION>
             <FUNCTION>
+              <NID>0xDAD4A4F2</NID>
+              <NAME>sceSysconCtrlNandPower</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x8068CAED</NID>
+              <NAME>sceSysconGetNandPowerCtrl</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x52D5A1AA</NID>
+              <NAME>sceSysconGetNandPowerStatus</NAME>
+            </FUNCTION>
+            <FUNCTION>
               <NID>0x04EEFD03</NID>
               <NAME>sceSysconSetHddPowerCallback</NAME>
             </FUNCTION>
@@ -271112,6 +271124,46 @@
             <FUNCTION>
               <NID>0x8A3ACE8C</NID>
               <NAME>sceKernelShowBlockList</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x01A30E66</NID>
+              <NAME>BTprintf</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x80FA28D8</NID>
+              <NAME>sceKernelGetHeapIDfromVAddr</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xF6AFFDD6</NID>
+              <NAME>sceKernelGetHeapTypeCB</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x180B1EA7</NID>
+              <NAME>sceKernelGetUidManHeapID</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xF1E71693</NID>
+              <NAME>sceKernelIsValidHeap</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xCCBF94EE</NID>
+              <NAME>sceKernelShowBlockList</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x5D97BC1F</NID>
+              <NAME>sceKernelSysMemCheckCtlBlk</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x9172DA33</NID>
+              <NAME>sceKernelSysMemDump</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x39D9F185</NID>
+              <NAME>sceKernelSysMemDumpBlock</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x8B4297CA</NID>
+              <NAME>sceKernelSysMemDumpTail</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x002BA296</NID>
