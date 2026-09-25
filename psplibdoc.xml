@@ -238829,7 +238829,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF1D672CE</NID>
-              <NAME>scePopsManDocOpen</NAME>
+              <NAME>scePopsManTitleHeaderRead</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
