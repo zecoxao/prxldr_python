@@ -96152,7 +96152,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x05115756</NID>
-              <NAME>sceMeAudio_05115756</NAME>
+              <NAME>sceMeAudioScUnlock</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x148E487D</NID>
@@ -96160,11 +96160,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x29798EF3</NID>
-              <NAME>sceMeAudio_29798EF3</NAME>
+              <NAME>sceMeAudioSetPause</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5EDA8D33</NID>
-              <NAME>sceMeAudio_5EDA8D33</NAME>
+              <NAME>sceMeAudioScLock</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -96178,7 +96178,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x29798EF3</NID>
-              <NAME>sceMeAudio_driver_29798EF3</NAME>
+              <NAME>sceMeAudioSetPause</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -237435,7 +237435,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x05115756</NID>
-              <NAME>sceMeAudio_05115756</NAME>
+              <NAME>sceMeAudioScUnlock</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x148E487D</NID>
@@ -237443,11 +237443,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x29798EF3</NID>
-              <NAME>sceMeAudio_29798EF3</NAME>
+              <NAME>sceMeAudioSetPause</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5EDA8D33</NID>
-              <NAME>sceMeAudio_5EDA8D33</NAME>
+              <NAME>sceMeAudioScLock</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDDB5FA7A</NID>
@@ -238709,7 +238709,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x29798EF3</NID>
-              <NAME>sceMeAudio_driver_29798EF3</NAME>
+              <NAME>sceMeAudioSetPause</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
