@@ -237451,7 +237451,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xDDB5FA7A</NID>
-              <NAME>sceMeAudio_DDB5FA7A</NAME>
+              <NAME>sceMeAudioSetVolume</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1AF750F2</NID>
