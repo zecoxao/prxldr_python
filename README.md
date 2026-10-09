@@ -1,4 +1,4 @@
-# prxldr for IDA Pro 9.4
+# prxldr for IDA Pro 9.5
 
 IDAPython port of [xyzz/prxldr](https://github.com/xyzz/prxldr), the PSP PRX
 loader written against the IDA 6.1 C SDK (itself derived from prxtool).
@@ -6,7 +6,7 @@ loader written against the IDA 6.1 C SDK (itself derived from prxtool).
 ## Why Python and not a rebuilt C plugin
 
 The original is a `.ldw` built from `prxldr.c` against `../idaldr.h`. Rebuilding
-it for 9.4 would need the IDA 9.4 SDK plus MSVC, neither of which is installed
+it for 9.5 would need the IDA 9.5 SDK plus MSVC, neither of which is installed
 here, and the SDK API it uses is gone anyway: `doDwrd`, `doASCI`, `get_long`,
 `put_long`, `get_many_bytes`, `askaddr`, `askfile_c`, `describe`, the `ph.id`
 global and the `loader_t LDSC` block were all renamed or removed across 6.x ->
@@ -31,6 +31,8 @@ Same as the original:
 
 * accepts ELF32/MIPS/LE with `e_type == 0xFFA0` or the Allegrex machine flag
 * selects the `psp` processor variant (falls back to `mipsl`)
+* creates a 64-bit database (segments get 64-bit addressing); PSP code and
+  pointers stay 32-bit MIPS, only the database bitness widens
 * asks for a relocation base when `e_entry < 0x08800000` (default `0x08804000`)
 * maps sections when a section table is present, program headers otherwise
 * creates `.bss` from the last `PT_LOAD`'s `p_memsz - p_filesz`

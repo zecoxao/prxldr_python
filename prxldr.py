@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-PSP PRX loader for IDA Pro 9.x  (developed/tested against IDA Pro 9.4)
+PSP PRX loader for IDA Pro 9.x  (developed/tested against IDA Pro 9.5)
 
 IDAPython port of https://github.com/xyzz/prxldr -- a C loader written against
 the IDA 6.1 SDK, itself derived from prxtool.  Behaviour is kept the same as
@@ -24,6 +24,7 @@ import struct
 import ida_bytes
 import ida_diskio
 import ida_entry
+import ida_ida
 import ida_idaapi
 import ida_idp
 import ida_kernwin
@@ -162,7 +163,11 @@ def read_cstr_buf(buf, off):
 
 def create32(start, end, name, sclass):
     """create32() from the original, minus the loader_failure() on a zero-size
-    segment (the original aborted the whole load on a PRX with an empty .bss)"""
+    segment (the original aborted the whole load on a PRX with an empty .bss).
+
+    Segments are created with 64-bit addressing (bitness 2) so the database is
+    a 64-bit one.  PSP code and pointers are still 32-bit MIPS -- only the
+    database/segment bitness changes, not how instructions or data are read."""
     if end <= start:
         return None
     if not ida_segment.add_segm(0, start, end, name, sclass):
@@ -170,7 +175,7 @@ def create32(start, end, name, sclass):
                                   % (name, start))
     seg = ida_segment.getseg(start)
     if seg is not None:
-        ida_segment.set_segm_addressing(seg, 1)
+        ida_segment.set_segm_addressing(seg, 2)
     return seg
 
 
@@ -919,11 +924,16 @@ def accept_file(li, filename):
 
 
 def load_file(li, neflags, fmt):
-    # IDA 9.4's MIPS module carries the Allegrex variant as "psp"
+    # IDA 9.5's MIPS module carries the Allegrex variant as "psp"
     if ida_idp.ph_get_id() != ida_idp.PLFM_MIPS:
         if not ida_idp.set_processor_type("psp",
                                           ida_idp.SETPROC_LOADER_NON_FATAL):
             ida_idp.set_processor_type("mipsl", ida_idp.SETPROC_LOADER)
+
+    # make a 64-bit database (segments below are created with 64-bit
+    # addressing to match).  PSP binaries are 32-bit MIPS; this only widens the
+    # database, it does not change the instruction set or pointer decoding.
+    ida_ida.inf_set_app_bitness(64)
 
     li.seek(0, os.SEEK_END)
     size = li.tell()
